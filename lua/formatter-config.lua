@@ -8,6 +8,16 @@ local prettier = {
   end
 }
 
+local luafmt = {
+  function()
+    return {
+      exe = "luafmt",
+      args = {"--indent-count", 2, "--stdin"},
+      stdin = true
+    }
+  end
+}
+
 require("formatter").setup(
   {
     filetype = {
@@ -15,7 +25,9 @@ require("formatter").setup(
       javascriptreact = prettier,
       typescript = prettier,
       typescriptreact = prettier,
+			markdown = prettier,
       json = prettier,
+			lua = luafmt
     }
   }
 )
