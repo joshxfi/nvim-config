@@ -3,10 +3,9 @@ local package = require("package-info")
 package.setup(
   {
     colors = {
-			up_to_date = "#3C4048",
-			outdated = "#d19a66",
+      up_to_date = "#3C4048",
+      outdated = "#d19a66"
     },
-
     icons = {
       enable = true,
       style = {
@@ -14,13 +13,12 @@ package.setup(
         outdated = "=> "
       }
     },
-
     hide_up_to_date = true,
     hide_unstable_versions = true
   }
 )
 
-local opts = { silent = true, noremap = true }
+local opts = {silent = true, noremap = true}
 
 -- Show package versions
 vim.api.nvim_set_keymap("n", "<leader>ns", ":lua require('package-info').show()<CR>", opts)
