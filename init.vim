@@ -44,3 +44,5 @@ nnoremap <silent><leader>7 :BufferGoto 7<CR>
 nnoremap <silent><leader>8 :BufferGoto 8<CR>
 nnoremap <silent><leader>9 :BufferLast<CR>
 nnoremap <silent><leader>p :BufferPin<CR>
+
+lua require('formatter-config')

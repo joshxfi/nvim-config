@@ -3,7 +3,6 @@ lua require('lsp-config')
 lua require('lualine-config')
 lua require('presence-config')
 lua require('telescope-config')
-lua require('formatter-config')
 lua require('treesitter-config')
 lua require('package-info-config')
 

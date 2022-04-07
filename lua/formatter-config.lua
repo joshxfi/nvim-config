@@ -25,9 +25,9 @@ require("formatter").setup(
       javascriptreact = prettier,
       typescript = prettier,
       typescriptreact = prettier,
-      markdown = prettier,
 			html = prettier,
 			css = prettier,
+      markdown = prettier,
       json = prettier,
       lua = luafmt
     }
