@@ -48,7 +48,6 @@ nnoremap <silent><leader>p :BufferPin<CR>
 lua require('cmp-config')
 lua require('lsp-config')
 lua require('lualine-config')
-lua require('presence-config')
 lua require('telescope-config')
 lua require('colorizer-config')
 lua require('formatter-config')
