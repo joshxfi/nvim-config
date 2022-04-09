@@ -22,6 +22,7 @@ Plug 'princejoogie/tailwind-highlight.nvim'
 Plug 'mhartington/formatter.nvim'
 Plug 'AndrewRadev/tagalong.vim'
 Plug 'MunifTanjim/nui.nvim'
+Plug 'norcalli/nvim-colorizer.lua'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " LSP

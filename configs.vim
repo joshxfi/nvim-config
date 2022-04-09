@@ -1,11 +1,3 @@
-lua require('cmp-config')
-lua require('lsp-config')
-lua require('lualine-config')
-lua require('presence-config')
-lua require('telescope-config')
-lua require('treesitter-config')
-lua require('package-info-config')
-
 set autoindent
 set encoding=UTF-8
 set noswapfile
