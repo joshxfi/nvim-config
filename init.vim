@@ -20,6 +20,7 @@ syntax enable
 
 let mapleader=' '
 colorscheme ayu
+hi Normal guibg=NONE ctermbg=NONE
 
 " NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>
