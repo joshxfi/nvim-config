@@ -5,6 +5,7 @@ set nowritebackup
 set shiftwidth=2
 set smartcase
 set smarttab
+set expandtab
 set softtabstop=0
 set tabstop=2
 set number
