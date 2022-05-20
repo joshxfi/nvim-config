@@ -24,6 +24,7 @@ Plug 'AndrewRadev/tagalong.vim'
 Plug 'MunifTanjim/nui.nvim'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'github/copilot.vim'
 
 " LSP
 Plug 'arkav/lualine-lsp-progress'
