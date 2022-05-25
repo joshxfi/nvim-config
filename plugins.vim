@@ -3,10 +3,7 @@ call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
-Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'andweeb/presence.nvim'
-Plug 'tpope/vim-fugitive'
-Plug 'Shatur/neovim-ayu'
 Plug 'preservim/nerdcommenter'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-lua/plenary.nvim'
@@ -26,6 +23,11 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'github/copilot.vim'
 
+" Git
+Plug 'tpope/vim-fugitive'
+Plug 'lewis6991/gitsigns.nvim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
 " LSP
 Plug 'arkav/lualine-lsp-progress'
 Plug 'onsails/lspkind-nvim'
@@ -38,5 +40,8 @@ Plug 'hrsh7th/cmp-vsnip'
 Plug 'hrsh7th/vim-vsnip'
 Plug 'neovim/nvim-lspconfig'
 Plug 'williamboman/nvim-lsp-installer'
+
+" Theme
+Plug 'Shatur/neovim-ayu'
 
 call plug#end()

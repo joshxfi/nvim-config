@@ -25,6 +25,7 @@ let g:NERDTrimTrailingWhitespace = 1
 let g:NERDToggleCheckAllLines = 1
 let g:nerdtree_sync_cursorline = 1
 let g:NERDTreeHighlightCursorline = 1
+let g:NERDTreeGitStatusUseNerdFonts = 1
 
 " Closetag
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.tsx,*.js'
