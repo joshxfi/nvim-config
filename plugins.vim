@@ -22,6 +22,7 @@ Plug 'MunifTanjim/nui.nvim'
 Plug 'norcalli/nvim-colorizer.lua'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'github/copilot.vim'
+Plug 'lukas-reineke/indent-blankline.nvim'
 
 " Git
 Plug 'tpope/vim-fugitive'
