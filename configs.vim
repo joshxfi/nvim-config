@@ -11,6 +11,7 @@ set tabstop=2
 set number
 set mouse=a
 set termguicolors
+set completeopt=menu,menuone,noselect
 
 " NERDTree 
 let g:NERDTreeShowHidden = 1
